@@ -1779,6 +1779,7 @@ body {
         /* Comfortable touch area */
         font-size: 1rem;
         /* Do not shrink text */
+        padding-block: 10px;
     }
 
     /* Order matters: Primary on top (which is actually bottom in column-reverse, 
@@ -1804,4 +1805,5 @@ body {
     .action-buttons-container {
         flex-direction: column-reverse;
     }
+
 }
